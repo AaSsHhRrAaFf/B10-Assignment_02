@@ -4,8 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(0, 0, 0);
+
   font-family: "Inter", sans-serif;
+}
+body {
+  background: rgb(0, 0, 0);
 }
 
 /* ///////////---Nav---RuleSet---///////// */
@@ -95,6 +98,7 @@ nav {
   font-weight: 600;
   border-radius: 42px;
   border: none;
+  background: rgb(0, 0, 0);
   border: 1px solid rgb(255, 255, 255);
 }
 
@@ -105,8 +109,8 @@ nav {
 /* ///////---Section--02---////// */
 
 .sec-02 {
-    text-align: center;
-    margin: 2em;
+  text-align: center;
+  margin: 2em;
 }
 .sec-02 h3 {
   color: rgb(255, 255, 255);
@@ -115,11 +119,11 @@ nav {
   font-weight: 900;
 }
 .sec-02 p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 1em;
-    font-weight: 400;
-    margin-top: 1em;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 1em;
 }
 .exersize {
   display: flex;
@@ -141,12 +145,50 @@ nav {
   gap: 1em;
 }
 .card h4 {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 .card p {
-    margin: 0;
+  margin: 0;
   color: rgba(255, 255, 255, 0.5);
 }
 .card img {
   border-radius: 50%;
 }
+
+/* ///////---Section--03//////// */
+
+.sec-03 {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em;
+}
+.sec-03-text {
+  width: 27em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+.sec-03-text h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3em;
+  font-weight: 900;
+}
+.sec-03-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 400;
+}
+.sec-03-img {
+  border-radius: 18px;
+}
+
+
+/* //////---Section--04---//////// */
+
