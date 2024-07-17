@@ -37,6 +37,69 @@ nav {
   font-weight: 600;
 }
 .icon {
-    display: none;
+  display: none;
 }
 
+/* /////////---Banner-Part-RuleSet---///////// */
+
+.sec-01 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1em;
+  /* padding: 0 10em; */
+}
+.title {
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 4em;
+  font-weight: 900;
+  
+}
+.title-text {
+  width: 50%;
+  margin-top: 2em;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 400;
+}
+.ban-text {
+    margin-left: 2em;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.btn-primary {
+  width: 224px;
+  height: 54px;
+  padding: 0.5em 1em;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+}
+.btn-secondary {
+  width: 224px;
+  height: 54px;
+  padding: 0.5em 1em;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 42px;
+  border: none;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+
+.hero {
+    margin-right: 7em;
+}
