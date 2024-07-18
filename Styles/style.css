@@ -294,32 +294,31 @@ input:focus {
 
 .sec-05 h3 {
   color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 3em;
-font-weight: 900;
-text-align: center;
-margin-top: 1em;
+  font-family: Inter;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1em;
 }
 .sec-05 p {
   color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 0.875em;
-font-weight: 400;
-text-align: center;
-margin: 2em auto;
+  font-family: Inter;
+  font-size: 0.875em;
+  font-weight: 400;
+  text-align: center;
+  margin: 2em auto;
 }
 
 .gallery {
   border-radius: 18px;
-background: rgba(255, 255, 255, 0.1);
-padding: 1.25em;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.25em;
 }
 .grid-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5em;
   margin-top: 1.25em;
-  
 }
 .profile {
   position: relative;
@@ -330,26 +329,76 @@ padding: 1.25em;
   left: 10%;
   color: #fff;
   font-family: Inter;
-font-size: 1.5em;
-font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 .job {
-
 }
 .profile img {
   height: 17em;
   width: 100%;
-  
+
   filter: brightness(80%);
   border-radius: 18px;
   background-color: rgba(0, 0, 0, 0.2);
-  
 }
-
 
 /* ///////---Footer---//////// */
 
-
 footer {
   height: 30.563em;
+  color: #fff;
+  margin-top: 4em;
+}
+.f-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em;
+}
+.footer-text {
+  width: 27.688em;
+}
+.footer-text h3 {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 4.375em;
+  font-weight: 800;
+}
+.footer-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.875em;
+  font-weight: 400;
+  margin-top: 1.5em;
+}
+.footer-link h4 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2em;
+font-weight: 700;
+
+}
+.footer-link p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.438em;
+font-weight: 400;
+margin-top: 1.5em;
+}
+.final-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 66.219em;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1.438em;
+  font-weight: 400;
+  margin-top: 1em;
 }
