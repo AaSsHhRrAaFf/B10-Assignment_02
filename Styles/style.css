@@ -189,6 +189,167 @@ nav {
   border-radius: 18px;
 }
 
-
 /* //////---Section--04---//////// */
 
+.sec-04 {
+  color: rgb(255, 255, 255);
+
+  margin-top: 4em;
+}
+
+.sec-04 h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+}
+.sec-04 p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.sec-04-content {
+  background: rgb(34, 34, 34);
+  margin-top: 4em;
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.table-title h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.75em;
+  font-weight: 900;
+}
+table {
+  border-collapse: collapse;
+  width: 19em;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.sec-04-form {
+  width: 36em;
+  margin-top: 1em;
+}
+.sec-04-form p {
+  margin: 1.5em auto;
+}
+.sec-04-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+}
+.input-field {
+  position: relative;
+}
+
+.input-field input,
+.input-field select {
+  height: 3em;
+  font-size: 1em;
+  padding: 0.938em;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0.938em;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.188em;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border: 2px solid #1cd679;
+}
+
+.input-field i {
+  position: absolute;
+}
+.data {
+  height: 3em;
+  padding: 0.938em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.data-2 {
+  width: 32em;
+}
+/* ///////////---Section--05--////////////// */
+
+.sec-05 h3 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3em;
+font-weight: 900;
+text-align: center;
+margin-top: 1em;
+}
+.sec-05 p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.875em;
+font-weight: 400;
+text-align: center;
+margin: 2em auto;
+}
+
+.gallery {
+  border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+padding: 1.25em;
+}
+.grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5em;
+  margin-top: 1.25em;
+  
+}
+.profile {
+  position: relative;
+}
+.profile p {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  font-family: Inter;
+font-size: 1.5em;
+font-weight: 600;
+}
+.job {
+
+}
+.profile img {
+  height: 17em;
+  width: 100%;
+  
+  filter: brightness(80%);
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+
+/* ///////---Footer---//////// */
+
+
+footer {
+  height: 30.563em;
+}
