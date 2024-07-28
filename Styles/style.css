@@ -289,7 +289,7 @@ td {
 }
 
 .sec-04-form {
-  width: 36em;
+  /* width: 36em; */
   margin-top: 1em;
 }
 .sec-04-form p {
@@ -338,9 +338,9 @@ input:focus {
   padding: 0.938em;
   color: rgba(255, 255, 255, 0.6);
 }
-.data-2 {
+/* .data-2 {
   width: 32em;
-}
+} */
 /* ///////////---Section--05--////////////// */
 
 .sec-05 h3 {
@@ -452,4 +452,107 @@ footer {
   font-size: 1.438em;
   font-weight: 400;
   margin-top: 1em;
+}
+
+
+
+/* ////---Media-Querry---//// */
+@media screen and (max-width: 576px) {
+  /* * {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+  } */
+  nav {
+    width: 100%;
+  }
+  .nav-list {
+    display: none;
+  }
+  .icon {
+    display: inline;
+    color: #fff;
+  }
+  .sec-01 {
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center;     /* Center text */
+  }
+.title, .title-text {
+  width: 90%;
+}
+  .ban-text {
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+  .hero {
+    position: relative; 
+    margin-right: 0; 
+  }
+  .hero img {
+    width: 100%;           /* Make image responsive */
+    height: auto;
+    /* margin: 0 auto;
+    position: relative; */
+  }
+
+  .token-01 {
+    position: absolute;
+    /* top: 20px; 
+    left: 20px; */
+    top: 10%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    right: auto; /
+  }
+  .token-02 {
+    position: absolute;
+    /* bottom: 20px;
+    right: 20px;  */
+    bottom: 10%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  /* .sec-01 {
+    width: 100%;
+    flex-direction: column;
+  } */
+  .exersize, .sec-03, .sec-04-content{
+    width: 100%;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    gap: 2em;
+  }
+  .sec-03-img, .sec-03-text{
+    
+width: 100%;
+  }
+  .table-title {
+    
+  }
+  .gallery  {
+    width: 90%;
+    margin: 0;
+  }
+  .grid-row {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    margin-top: 2em;
+    
+    
+  }
+  .f-area {
+    flex-direction: column;
+  }
+  .line {
+    width: 80%;
+  }
+  footer {
+    width: 100%;
+    flex-direction: column;
+  }
 }
