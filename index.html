@@ -37,8 +37,8 @@
             transformation stories to help you get fit and stay fit!
           </p>
           <div class="btn">
-            <button class="btn-primary">Join Now</button>
-            <button class="btn-secondary">Download App</button>
+            <button type="button" class="btn-primary">Join Now</button>
+            <button type="button" class="btn-secondary">Download App</button>
           </div>
         </div>
         <div class="hero">
@@ -100,7 +100,7 @@
         </div>
       </section>
       <section class="sec-04">
-        <h3>BMI Calculator</h3>
+        <h3 class="sec-04-title">BMI Calculator</h3>
         <p>
           We believe fitness should be accessible to everyone, everywhere,
           regardless of income or access to a gym.
@@ -141,29 +141,32 @@
             </p>
             <div>
               <form class="sec-04-field">
-                <div class="input-field">
-                  <input type="text" id="height" name="height" />
-                  <label for="height">Height/cm</label>
+                <div class="input">
+                  <div class="input-field">
+                    <label for="height">Height/cm</label>
+                    <input type="text" id="height" name="height" />
+                  </div>
+                  <div class="input-field">
+                    <label for="weight">Weight/kg</label>
+                    <input type="text" id="weight" name="weight" />
+                  </div>
+
+                  <div class="input-field">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age" />
+                  </div>
+                  <div class="input-field">
+                    <select name="gender" id="gender">
+                      <option value="male">Gender</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="input-field">
-                  <label for="weight">Weight/kg</label>
-                  <input type="text" id="weight" name="weight" />
-                </div>
-                <div class="input-field">
-                  <label for="age">Age</label>
-                  <input type="text" id="age" name="age" />
-                </div>
-                <div class="input-field">
-                  <select class="data" name="gender" id="gender">
-                    <option value="male">Gender</option>
-                  </select>
-                </div>
-                <div class="input-field">
-                  <select class="data data-2" name="data" id="data">
+                  <select class="data" name="data" id="data">
                     <option value="data">Select an activity factor</option>
                   </select>
                 </div>
-                <button class="btn-primary">Calculate</button>
+                <button type="button" class="btn-primary">Calculate</button>
               </form>
             </div>
           </div>
@@ -188,14 +191,14 @@
               <img src="./images/trainer2.png" alt="pic" />
               <p>
                 Jerome Bell<br />
-                <span>Trainer</span>
+                <span class="job">Trainer</span>
               </p>
             </div>
             <div class="profile">
               <img src="./images/trainer3.png" alt="pic" />
               <p>
                 Jerome Bell<br />
-                <span>Trainer</span>
+                <span class="job">Trainer</span>
               </p>
             </div>
           </div>
@@ -204,26 +207,27 @@
               <img src="./images/trainer4.png" alt="pic" />
               <p>
                 Jerome Bell<br />
-                <span>Trainer</span>
+                <span class="job">Trainer</span>
               </p>
             </div>
             <div class="profile">
               <img src="./images/trainer5.png" alt="pic" />
               <p>
                 Jerome Bell<br />
-                <span>Trainer</span>
+                <span class="job">Trainer</span>
               </p>
             </div>
             <div class="profile">
               <img src="./images/trainer6.png" alt="pic" />
               <p>
                 Jerome Bell<br />
-                <span>Trainer</span>
+                <span class="job">Trainer</span>
               </p>
             </div>
           </div>
         </div>
       </section>
+
     </main>
     <footer>
       <section class="f-area">
