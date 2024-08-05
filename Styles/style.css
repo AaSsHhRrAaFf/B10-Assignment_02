@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&display=swap");
 
+@font-face {
+  font-family: 'Miama';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Miama';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +87,11 @@ nav {
   font-size: 1em;
   font-weight: 400;
 }
-
+.shape {
+  font-family: Miama;
+  font-size: 1.5em;
+  font-weight: 900;
+}
 .btn {
   display: flex;
   align-items: center;
@@ -296,7 +316,7 @@ td {
   padding: 10px;
 }
 .table-title, .sec-04-form {
-  width: 100%; /* change to 100% to make them responsive */
+  width: 100%; 
 }
 .sec-04-form {
   margin-top: 1em;
@@ -360,10 +380,9 @@ input:focus {
   height: 3em;
   padding: 0.938em;
   color: rgba(255, 255, 255, 0.6);
+  margin: 1em 0 ;
 }
-/* .data-2 {
-  width: 32em;
-} */
+
 /* ///////////---Section--05--////////////// */
 
 .sec-05 h3 {
@@ -538,6 +557,7 @@ footer {
   }
 
   .token-01 {
+    width: 45%;
     position: absolute;
     top: 30%; 
     left: 70%;
@@ -545,6 +565,7 @@ footer {
     right: auto; /
   }
   .token-02 {
+    width: 45%;
     position: absolute;
     bottom: 50%; 
     left: 20%;
@@ -568,11 +589,12 @@ width: 100%;
     width: 100%;
     display: flex;
 flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
+justify-content: center;
+align-items: center;
 padding: 3em;
   }
   .sec-04-form {
+    
     padding: 0 1em;
     width: 22.125em;
     
